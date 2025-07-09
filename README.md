@@ -54,6 +54,10 @@ rm "$BACKUP_FILE"
 
 ```
 
+```
+chmod +x /home/banjo/backup.sh
+```
+
    
 ### CRONTAB
 ```
