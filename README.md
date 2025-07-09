@@ -59,7 +59,7 @@ rm "$BACKUP_FILE"
 ```
 crontab -e
 ```
-### Enter the following code in the crontob so as to do the back up Daily at 5:00PM
+### Enter the following code in the crontab so as to do the back up Daily at 5:00PM
 ```
 0 17 * * * /home/banjo/backup.sh
 ```
