@@ -2,7 +2,7 @@
 
 ![Alt text](illustration-pics.jpg)
 
-### This project assume you have a MySQL Database Administration Skills already
+### This project assume you have a MySQL Database Administration Skills already and AWS S3
 
 ### Ensure to run these.....................
 
