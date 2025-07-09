@@ -2,6 +2,9 @@
 
 ![Alt text](illustration-pics.jpg)
 
+### Test the script in a controlled environment before using it to automate database backups in a production environment.
+
+
 ### This project assume you have a MySQL Database Administration Skills already and AWS S3
 
 ### Ensure to run these.....................
