@@ -1,4 +1,6 @@
-# This is a simple Automation Script that backup MySQL Database using Bash as well as Upload the file to s3 bucket.
+# This is a simple Automation Script that backup MySQL Database using Bash as well as Upload the file to AWS s3 bucket.
+
+![Alt text](illustration-pics.jpg)
 
 ### This project assume you have a MySQL Database Administration Skills already
 
