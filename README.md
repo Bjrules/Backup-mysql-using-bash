@@ -1,8 +1,22 @@
 # This is a simple Automation Script that backup MySQL Database using Bash as well as Upload the file to s3 bucket.
+
 ### This project assume you have a MySQL Database Administration Skills already
 
+### Ensure to run these.....................
 
+### Install awscli
+```
+sudo install awscli
+aws configure
+```
+1. AWS Access Key ID
+2. AWS Secret Access Key
+3. Region (e,g, us-east-1)
+4. Output format (leave it blank)
 
+### The Bash Code
+
+```
 #!/bin/bash
 
 # Database credentials
@@ -34,20 +48,10 @@ else
     echo "Database backup failed"
 fi
 
-rm "#BACKUP_FILE"
+rm "$BACKUP_FILE"
 
-
-## Ensure to run these.....................
-
-### Install awscli
 ```
-sudo install awscli
-aws configure
-```
-1. AWS Access Key ID
-2. AWS Secret Access Key
-3. Region (e,g, us-east-1)
-4. Output format (leave it blank)
+
    
 ### CRONTAB
 ```
